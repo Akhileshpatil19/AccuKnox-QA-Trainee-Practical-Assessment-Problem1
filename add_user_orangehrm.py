@@ -25,7 +25,7 @@ def add_employee():
         page.click("button:has-text('Save')")
         page.wait_for_selector("text=Personal Details")
 
-        print("✅ Employee 'Linda Anderson' added successfully.")
+        print("Employee 'Linda Anderson' added successfully.")
         context.close()
         browser.close()
 
